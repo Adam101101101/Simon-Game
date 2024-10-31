@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(107, 96, 96, 0.834);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 10px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: rgba(189, 17, 17, 0.53);
+}
+.yellow{
+    background-color: rgba(186, 186, 22, 0.603);
+}
+.blue{
+    background-color: rgba(22, 22, 190, 0.675);
+}
