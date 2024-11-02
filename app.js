@@ -70,3 +70,13 @@ function reset(){
     gameSeq=[]
     level=0;
 }
+// add Button click add Start
+let startButton = document.getElementById("start-button");
+
+startButton.addEventListener("click", function() {
+    if (started === false) {
+        console.log("Game Is Start");
+        started = true;
+        levelUp();
+    }
+});
