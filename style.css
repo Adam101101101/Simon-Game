@@ -30,3 +30,9 @@ body{
 .blue{
     background-color: rgba(22, 22, 190, 0.675);
 }
+.flash{
+    background-color: white;
+}
+.user{
+    background-color: rgb(248, 240, 245);
+}
